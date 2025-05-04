@@ -1,0 +1,109 @@
+// FOOTER
+.bg-footer{
+    background-color: $primary-normal;
+}
+
+.bg-footer h2{
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: $white-light;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0;
+    gap: 24px;
+    color: $white-normal;
+    
+    font-size: 15px;
+}
+
+.unidades {
+    display: flex;
+    align-items: flex-start; /* melhor do que center para o conteúdo começar de cima */
+    justify-content: center;
+    gap: 40px; /* espaço entre o texto e o mapa */
+    padding: 40px 20px;
+    flex-wrap: wrap; /* para ficar responsivo */
+}
+
+.unidades-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* espaço entre elementos internos */
+    max-width: 500px; /* limitar largura para não ficar muito esticado */
+    color: $white-normal;
+    
+}
+
+.unidades-description h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.unidades-description p {
+    font-size: 16px;
+}
+
+.unidades-description h2 {
+    font-size: 24px;
+    text-align: left;
+}
+
+.location-line {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $yellow-light;
+    font-size: 16px;
+  }
+  
+.location-line i {
+color: $white-normal;
+}
+
+iframe {
+    max-width: 600px;
+    width: 100%;
+    height: 450px;
+    border: 0;
+    border-radius: 8px; /* opcional, para ficar mais moderno */
+}
+
+.logo_footer{
+    align-self: center;
+    margin-right: 60px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 16px; /* aumenta espaço entre ícones */
+    color: $white-normal;
+    margin-top: 16px;
+}
+
+.footer-icons a:hover{
+    i{
+        animation: translateY 0.8s infinite alternate;
+        color: $yellow-light
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+      font-size: 13px;
+      padding: 30px 10px;
+      text-align: center;
+  
+      .logo_footer {
+        align-self: center;
+        padding-left: 0;
+      }
+    }
+}
