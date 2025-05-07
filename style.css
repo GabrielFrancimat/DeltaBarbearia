@@ -729,7 +729,7 @@ html {
 }
 
 .unidades-description p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .unidades-description h2 {
@@ -754,7 +754,7 @@ iframe {
   width: 100%;
   height: 450px;
   border: 0;
-  border-radius: 8px; /* opcional, para ficar mais moderno */
+  border-radius: 8px;
 }
 
 .logo_footer {
@@ -830,7 +830,7 @@ iframe {
 .professional img {
   max-height: 350px;
   width: 100%;
-  max-width: 420px;
+  max-width: 440px;
   transition: transform 0.2;
   -o-object-fit: cover;
      object-fit: cover;
@@ -879,7 +879,7 @@ iframe {
 }
 
 .modal-content {
-  background-color: #997615;
+  background-color: #ccae54;
   color: #161617;
   padding: 30px;
   border-radius: 12px;

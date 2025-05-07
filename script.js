@@ -13,25 +13,19 @@ const professionals = {
     img: "assets/lucas_barber.jpg",
     name: "Lucas Anderson",
     role: "Cabeleireiro e Barbeiro",
-    bio: "FALA MEU BROTHER, TUDO BEM? SOU O LUCAS E ESTOU AQUI NA BARBEARIA DELTA PARA ELEVARSUA AUTOESTIMA E CONFIANÇA DEIXANDO SEU VISUAL SEMPRE IMPECÁVEL. VENHA CONHECER MEU TRABALHO E DESCOBRIR O MELHOR CORTE E BARBA QUE COMBINA COM O SEU MOMENTO DE VIDA."
+    bio: "Fala meu brother, tudo bem? sou o lucas e estou aqui na barbearia delta para elevarsua autoestima e confiança deixando seu visual sempre impecável. venha conhecer meu trabalho e descobrir o melhor corte e barba que combina com o seu momento de vida."
   },
   pedro: {
     img: "assets/pedro_barber.jpg",
     name: "Pedro Vieira",
     role: "Cabeleireiro e Barbeiro",
-    bio: "Pedro se destaca pelo atendimento personalizado e atenção aos detalhes."
-  },
-  asafe: {
-    img: "assets/Asafe_barber.jpg",
-    name: "Asafe Ortiz",
-    role: "Cabeleireiro e Barbeiro",
-    bio: "FALA PESSOAL! VIM DIRETAMENTE DO MATO GROSSO PARA OFERECER O MELHOR ATENDIMENTO PARA VOCÊS! ESTOU NA ÍNDIGO DESDE QUE A BARBEARIA INAUGUROU, E JUNTO COM TODOS VENHO APRENDENDO DIA A DIA! COMIGO VOCÊ TEM UM ATENDIMENTO DE EXCELÊNCIA. E COMO SEMPRE DIGO: 'FIQUE NOVO DE NOVO!' SERÁ UM PRAZER ATENDER E CONHECER VOCÊ!"
+    bio: "'Mais do que um corte, uma expressão única de quem você é'. Eai tudo certo, sou Pedro Vieira barbeiro a mais de 4 anos e iniciei com uma máquina na mão, um sonho no coração… e a vontade de transformar vidas atrvés de um atendimento exclusivo voltado para cada pessoa que se senta em frente à minha bancada."
   },
   vaniele: {
     img: "assets/moça_manicure.jpg",
     name: "Vaniele Marinho",
     role: "Manicure e Pedicure",
-    bio: "Vaniele proporciona bem-estar e cuidado com unhas impecáveis e atendimento humanizado."
+    bio: "Sou a Vaniele, especialista em proporcionar bem-estar através do cuidado com unhas impecáveis e um atendimento totalmente humanizado. Mais do que estética, entrego carinho, atenção e uma experiência única para você se sentir ainda melhor com quem é."
   }
 };
 
