@@ -26,12 +26,6 @@ const professionals = {
     name: "Vaniele Marinho",
     role: "Manicure e Pedicure",
     bio: "Sou a Vaniele, especialista em proporcionar bem-estar através do cuidado com unhas impecáveis e um atendimento totalmente humanizado. Mais do que estética, entrego carinho, atenção e uma experiência única para você se sentir ainda melhor com quem é."
-  },
-    tony: {
-    img: "",
-    name: "Tony Alves",
-    role: "Barbeiro",
-    bio: "Com mais de 35 anos de experiência, Tony é conhecido por sua precisão nos cortes e atenção aos detalhes. Especialista em estilos modernos e clássicos, ele combina técnica, criatividade e um atendimento personalizado para realçar a personalidade de cada cliente."
   }
 };
 
