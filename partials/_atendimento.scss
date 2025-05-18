@@ -47,11 +47,11 @@
     margin-left: 5  0px;
 }
 
-.plano {
+.img_atendimento {
     transition: all 0.3s ease-in-out;
 }
 
-.plano img {
+.img_atendimento img {
     width: 100%;
     max-width: 250px;
     transition: transform 0.3s ease;
@@ -76,7 +76,7 @@
     rotate: 5deg;
 }
 
-.plano:hover {
+.img_atendimento:hover {
     transform: rotate 3deg scale 1.05;
 }
 

@@ -12,13 +12,13 @@ const professionals = {
   lucas: {
     img: "assets/lucas_barber.jpg",
     name: "Lucas Anderson",
-    role: "Cabeleireiro e Barbeiro",
+    role: "Barbeiro",
     bio: "Fala meu brother, tudo bem? sou o lucas e estou aqui na barbearia delta para elevarsua autoestima e confiança deixando seu visual sempre impecável. venha conhecer meu trabalho e descobrir o melhor corte e barba que combina com o seu momento de vida."
   },
   pedro: {
     img: "assets/pedro_barber.jpg",
     name: "Pedro Vieira",
-    role: "Cabeleireiro e Barbeiro",
+    role: "Barbeiro",
     bio: "'Mais do que um corte, uma expressão única de quem você é'. Eai tudo certo, sou Pedro Vieira barbeiro a mais de 4 anos e iniciei com uma máquina na mão, um sonho no coração… e a vontade de transformar vidas atrvés de um atendimento exclusivo voltado para cada pessoa que se senta em frente à minha bancada."
   },
   vaniele: {
@@ -26,6 +26,12 @@ const professionals = {
     name: "Vaniele Marinho",
     role: "Manicure e Pedicure",
     bio: "Sou a Vaniele, especialista em proporcionar bem-estar através do cuidado com unhas impecáveis e um atendimento totalmente humanizado. Mais do que estética, entrego carinho, atenção e uma experiência única para você se sentir ainda melhor com quem é."
+  },
+    tony: {
+    img: "",
+    name: "Tony Alves",
+    role: "Barbeiro",
+    bio: "Com mais de 35 anos de experiência, Tony é conhecido por sua precisão nos cortes e atenção aos detalhes. Especialista em estilos modernos e clássicos, ele combina técnica, criatividade e um atendimento personalizado para realçar a personalidade de cada cliente."
   }
 };
 
@@ -88,3 +94,19 @@ btnNext.addEventListener("click", () => {
 btnPrev.addEventListener("click", () => {
   wrapper.scrollBy({ left: -scrollStep, behavior: "smooth" });
 });
+
+// Mostrar Planos
+function togglePlanos(mostrar) {
+  const conferirBtn = document.getElementById('mostrar-planos');
+  const voltarBtn = document.getElementById('voltar-btn');
+  const conteudoOriginal = document.querySelector('.services-content');
+  const planosContainer = document.getElementById('planos-section');
+
+  if (mostrar) {
+    conteudoOriginal.style.display = 'none';
+    planosContainer.style.display = 'flex';
+  } else {
+    planosContainer.style.display = 'none';
+    conteudoOriginal.style.display = 'block';
+  }
+}

@@ -124,12 +124,7 @@ html {
   text-align: center;
   line-height: 150%;
   max-width: 940px;
-  font-size: 72px;
-}
-.hero p {
-  text-align: center;
-  margin: 14px 0;
-  font-size: 30px;
+  font-size: 55px;
 }
 .hero .linha-vertical {
   border-left: 4px solid #ccae54;
@@ -199,17 +194,12 @@ html {
     min-height: 60vh;
   }
   .hero .hero h1 {
-    font-size: 34px;
+    font-size: 15px;
     padding: 0 14px;
     width: 100%;
   }
   .hero .hero p {
     font-size: 14px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .hero .hero h1 {
-    font-size: 24px;
   }
 }
 
@@ -238,7 +228,7 @@ html {
 }
 
 .icon_check_mark p {
-  font-size: 20px;
+  font-size: 17px;
   margin: 0;
 }
 
@@ -344,7 +334,6 @@ html {
 }
 .about .time .time-content .linha-vertical {
   border-left: 4px solid #ccae54;
-  height: 4px;
   margin: 10px 0;
 }
 .about .time .time-content .icon-tools {
@@ -379,121 +368,6 @@ html {
   }
 }
 
-.services {
-  color: #fefbff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 54px 14px;
-  background-image: linear-gradient(to top, rgba(22, 22, 23, 0.8), rgba(0, 0, 25, 0.5)), url("/Barbearia/assets/bg-2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.services-content h2 {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 35px;
-  margin-bottom: 14px;
-}
-
-.services-content p {
-  line-height: 150%;
-  margin-bottom: 14px;
-  text-align: center;
-  max-width: 100%;
-  font-size: 23px;
-  color: #ccae54;
-}
-
-.haircuts {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  gap: 16px;
-  padding: 0 44px 34px 44px;
-}
-
-.haircut {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  background-color: #FFF;
-  border-radius: 8px;
-  border: 4px solid #ccae54;
-  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
-}
-
-.haircut img:hover {
-  transform: scale(1.2);
-  z-index: 1;
-}
-
-.haircut-info {
-  width: 100%;
-  min-height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 14px;
-  background-color: #4f4c52;
-  color: #fefbff;
-  z-index: 2;
-}
-
-.haircuts-benefits {
-  margin-top: 10px;
-  margin-bottom: 40px;
-}
-
-.haircuts-benefits p {
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  margin: 4px 0;
-}
-
-.haircuts-benefits i {
-  color: #FFF;
-  margin-right: 8px;
-  font-size: 16px;
-}
-
-.haircut-info-title {
-  font-size: 30px;
-  color: #0c2135;
-}
-
-.linha-horizontal {
-  border-top: 4px solid #ccae54;
-  width: 340px;
-  margin: 20px;
-}
-
-.haircut-info button {
-  color: #FFF;
-  background-color: #997615;
-  padding: 4px 8px;
-  border-radius: 4px;
-  border: 1px solid #fefbff;
-  font-size: 50px;
-  margin-top: auto;
-}
-
-.haircut-info button:hover {
-  transform: scale(1.03);
-  background-color: #c6991b;
-  color: #161617;
-}
-
-@media screen and (max-width: 768px) {
-  .haircuts {
-    flex-direction: column;
-    padding: 0 20px;
-  }
-}
 .comments {
   padding: 50px 20px;
   background-color: #111;
@@ -921,11 +795,11 @@ iframe {
   margin-left: 5 0px;
 }
 
-.plano {
+.img_atendimento {
   transition: all 0.3s ease-in-out;
 }
 
-.plano img {
+.img_atendimento img {
   width: 100%;
   max-width: 250px;
   transition: transform 0.3s ease;
@@ -950,7 +824,7 @@ iframe {
   rotate: 5deg;
 }
 
-.plano:hover {
+.img_atendimento:hover {
   transform: rotate 3deg scale 1.05;
 }
 
@@ -1067,6 +941,140 @@ iframe {
 @media screen and (max-width: 768px) {
   .questions {
     margin: 30px;
+  }
+}
+.services {
+  color: #fefbff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 14px;
+  background-image: linear-gradient(to top, rgba(22, 22, 23, 0.8), rgba(0, 0, 25, 0.5)), url("/Barbearia/assets/bg-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services-content h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 14px;
+}
+
+.services-content p {
+  line-height: 150%;
+  margin-bottom: 14px;
+  text-align: center;
+  max-width: 100%;
+  font-size: 23px;
+  color: #ccae54;
+}
+
+#all-content {
+  transition: all 0.5s ease;
+}
+
+#planos-section {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #161617;
+  color: #fefbff;
+  text-align: center;
+}
+
+#planos-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #ccae54;
+}
+
+#planos-container {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#planos-container.show {
+  display: flex;
+}
+
+.price_button {
+  background-color: #997615;
+  color: #161617;
+  border: 3px solid;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+@keyframes color_change {}
+.planos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.plano {
+  background-color: #4f4c52;
+  border: 2px solid #ccae54;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.plano h3 {
+  font-size: 24px;
+  color: #0c2135;
+  margin-bottom: 10px;
+}
+
+.plano ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.plano ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.plano p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.toggle-button {
+  justify-content: center;
+  align-items: center;
+  background-color: #997615;
+  color: #161617;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .planos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .plano {
+    width: 100%;
+    max-width: 360px;
   }
 }
 body {

@@ -185,73 +185,51 @@
 
         <!-- SERVICES -->
         <section id="beneficios" class="services">
-            <div class="services-content container">
+            <div class="services-content container" id="all-content">
                 <p>Nossos Planos</p>
                 <h2>Clube Delta - Barbearia por Assinatura</h2>
+                <p>Oferecemos planos personalizados com cortes e barbas ilimitadas, atendimento sem filas e vantagens exclusivas. Experimente conveniência e estilo todos os dias!</p>
+                <button class="toggle-button" onclick="togglePlanos(true)">CONFIRA</button>
             </div>
 
-            <section class="haircuts">
-                <div class="haircut" data-aos="fade-up" data-aos-delay="150">
-                    <div class="haircut-info">
-                        <p class="haircut-info-title"><strong>Corte de cabelo Ilimitado</strong></p>
-                        <div class="haircuts-benefits">
-                            <p><i class="fas fa-check"></i> CORDE CABELO ILIMITADOS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> PREÇO FIXO MENSAL</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> ATENDIMENTO SEM FILAS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> 10% DE DESCONTO EM SERVOÇOS EXTRAS E PRODUTOS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> ESTILO GARANTIDO O MÊS INTEIRO</p>
-                            <div class="linha-horizontal"></div>
-                          </div>
-                        <button onclick="window.location.href='https://cashbarber.com.br/deltabarbearia';">R$ 97,00</button>
-                        <p>* Corte Avulso R$ 65,00</p>
+            <section id="planos-section">
+                <h2>Planos Disponíveis</h2>
+                <div class="planos-container">
+                    <div class="plano">
+                        <h3>Corte de Cabelo Ilimitado</h3>
+                        <ul>
+                            <li>✅ Cortes ilimitados</li>
+                            <li>✅ Preço fixo mensal</li>
+                            <li>✅ Atendimento sem filas</li>
+                            <li>✅ 10% desconto em extras</li>
+                            <li>✅ Estilo garantido o mês inteiro</li>
+                        </ul>
+                        <a href=""><button class="price_button">R$ 97,00/mês</button></a>
+                    </div>
+                    <div class="plano">
+                        <h3>Corte de Barba Ilimitado</h3>
+                        <ul>
+                            <li>✅ Barbas ilimitadas</li>
+                            <li>✅ Preço fixo mensal</li>
+                            <li>✅ Atendimento sem filas</li>
+                            <li>✅ 10% desconto em extras</li>
+                            <li>✅ Estilo garantido o mês inteiro</li>
+                        </ul>
+                        <a href=""><button class="price_button">R$ 107,00/mês</button></a>
+                    </div>
+                    <div class="plano">
+                        <h3>⭐ Corte + Barba Ilimitado</h3>
+                        <ul>
+                            <li>✅ Cortes e barbas ilimitados</li>
+                            <li>✅ Preço fixo mensal</li>
+                            <li>✅ Atendimento sem filas</li>
+                            <li>✅ 10% desconto em extras</li>
+                            <li>✅ Estilo garantido o mês inteiro</li>
+                        </ul>
+                        <a href=""><button class="price_button">R$ 179,90/mês</button></a>
                     </div>
                 </div>
-
-                <div class="haircut" data-aos="fade-up" data-aos-delay="250">
-                    <div class="haircut-info">
-                        <p class="haircut-info-title"><strong>Corte de Barba Ilimitado</strong></p> 
-                        <div class="haircuts-benefits">
-                            <p><i class="fas fa-check"></i> CORTE DE BARBA ILIMITADO</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> PREÇO FIXO MENSAL</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> ATENDIMENTO SEM FILAS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> 10% DE DESCONTO EM SERVOÇOS EXTRAS E PRODUTOS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> ESTILO GARANTIDO O MÊS INTEIRO</p>
-                            <div class="linha-horizontal"></div>
-                          </div>
-                        <button onclick="window.location.href='https://cashbarber.com.br/deltabarbearia';">R$ 107,00</button>
-                        <p>* Corte de Barba Avulso R$ 65,00</p>
-                    </div>
-                </div>
-
-                <div class="haircut" data-aos="fade-up" data-aos-delay="400">
-                    <div class="haircut-info">
-                        <p class="">⭐ Mais Assinado ⭐</p>
-                        <p class="haircut-info-title"><strong>Corte e Barba Ilimitado</strong></p>
-                        <div class="haircuts-benefits">
-                            <p><i class="fas fa-check"></i> CORTES DE CABOLO ILIMITADOS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> CORTE DE BARBA ILIMITADOS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> PREÇO FIXO MENSAL</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> ATENDIMENTO SEM FILAS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> 10% DE DESCONTO EM SERVIÇOS EXTRAS E PRODUTOS</p>
-                            <div class="linha-horizontal"></div>
-                            <p><i class="fas fa-check"></i> ESTILO GARANTIDO O MÊS INTEIRO</p>
-                          </div>
-                        <button onclick="window.location.href='https://cashbarber.com.br/deltabarbearia';">R$ 179,90</button>
-                        <p>* Corte e Barba Avulso R$ 130,00</p>
-                    </div>
-                </div>
+                <button class="toggle-button" onclick="togglePlanos(false)">VOLTAR</button>
             </section>
         </section>
 
@@ -281,11 +259,11 @@
                 </div>
             </div>
             <div class="planos">
-                <div class="plano" data-aos="fade-up" data-aos-delay="150">
+                <div class="img_atendimento" data-aos="fade-up" data-aos-delay="150">
                     <img class="img-1" src="assets/plano_2.png" alt="Corte de Cabelo">
                 </div>
 
-                <div class="plano" data-aos="fade-up" data-aos-delay="250">
+                <div class="img_atendimento" data-aos="fade-up" data-aos-delay="250">
                     <img class="img-2" src="assets/plano_1.png" alt="Barba completa">
                 </div>
             </div>
@@ -457,10 +435,18 @@
                 </div>
 
                 <div class="professional" data-aos="fade-up" data-aos-delay="500">
-                    <img src="assets/moça_manicure.jpg" alt="Profissional Moça">
+                    <img src="assets/moça_manicure.jpg" alt="Profissional Vaniele">
                     <div class="professional-info">
                         <P><strong>VANIELE MARINHO</strong></P>
                         <p>MANICURE E PEDICURE</p>
+                        <button>SOBRE</button>
+                    </div>
+                </div>
+                <div class="professional" data-aos="fade-up" data-aos-delay="500">
+                    <img src="" alt="Profissional Tony">
+                    <div class="professional-info">
+                        <P><strong>TONY ALVES</strong></P>
+                        <p>CABELEREIRO E BARBEIRO</p>
                         <button>SOBRE</button>
                     </div>
                 </div>
